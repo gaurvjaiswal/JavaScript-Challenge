@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ES6 Modules</title>
+</head>
+<body>
+    <script type="module">
+        import _ from './node_modules/lodash-es/lodash.js';
+
+        const numbers = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
+
+        // Use the _.shuffle function to shuffle the array
+        const shuffledNumbers = _.shuffle(numbers);
+
+        console.log('Original numbers:', numbers);
+        console.log('Shuffled numbers:', shuffledNumbers);
+    </script>
+</body>
+</html>
