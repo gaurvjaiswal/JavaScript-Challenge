@@ -1,0 +1,320 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>Social media dashboard</title>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Sharp:opsz,wght,FILL,GRAD@48,400,0,0" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+   <div class="container">
+      <aside>
+           
+         <div class="top">
+           <div class="logo">
+             <h2> 😎  <span class="danger">GAURAV</span> </h2>
+           </div>
+           <div class="close" id="close_btn">
+            <span class="material-symbols-sharp">
+              close
+              </span>
+           </div>
+         </div>
+         <!-- end top -->
+          <div class="sidebar">
+
+            <a href="#">
+              <span class="material-symbols-sharp">grid_view </span>
+              <h3>Dashbord</h3>
+           </a>
+           <a href="#" class="active">
+              <span class="material-symbols-sharp">person_outline </span>
+              <h3>People</h3>
+           </a>
+           <a href="#">
+              <span class="material-symbols-sharp">insights </span>
+              <h3>Analytics</h3>
+           </a>
+           <a href="#">
+              <span class="material-symbols-sharp">mail_outline </span>
+              <h3>Messages</h3>
+              <span class="msg_count">14</span>
+           </a>
+           <a href="#">
+              <span class="material-symbols-sharp">receipt_long </span>
+              <h3>followers</h3>
+           </a>
+           <a href="#">
+              <span class="material-symbols-sharp">report_gmailerrorred </span>
+              <h3>Reports</h3>
+           </a>
+           <a href="#">
+              <span class="material-symbols-sharp">settings </span>
+              <h3>settings</h3>
+           </a>
+           <a href="#">
+              <span class="material-symbols-sharp">add </span>
+              <h3>Add details</h3>
+           </a>
+           <a href="#">
+              <span class="material-symbols-sharp">logout </span>
+              <h3>logout</h3>
+           </a>
+             
+
+
+          </div>
+
+      </aside>
+      <!-- --------------
+        end asid
+      -------------------- -->
+
+      <!-- --------------
+        start main part
+      --------------- -->
+
+      <main>
+           <h1>Dashbord</h1>
+
+           <div class="date">
+             <input type="date" >
+           </div>
+
+        <div class="insights">
+
+           <!-- start seling -->
+            <div class="sales">
+               <span><i class="fa-brands fa-square-instagram"></i></span>
+               <div class="middle">
+
+                 <div class="left">
+                   <h3>Total Followers</h3>
+                   <h1>25 M</h1>
+                 </div>
+                  <div class="progress">
+                      <svg>
+                         <circle  r="30" cy="40" cx="40"></circle>
+                      </svg>
+                      <div class="number"><p>80%</p></div>
+                  </div>
+
+               </div>
+               <small>Last 24 Hours</small>
+            </div>
+           <!-- end seling -->
+              <!-- start expenses -->
+              <div class="expenses">
+                <span><i class="fa-brands fa-facebook" id="facebook"></i></span>
+                <div class="middle">
+ 
+                  <div class="left">
+                    <h3>Total Followers</h3>
+                    <h1>20 M</h1>
+                  </div>
+                   <div class="progress">
+                       <svg>
+                          <circle  r="30" cy="40" cx="40"></circle>
+                       </svg>
+                       <div class="number"><p>80%</p></div>
+                   </div>
+ 
+                </div>
+                <small>Last 24 Hours</small>
+             </div>
+            <!-- end seling -->
+               <!-- start seling -->
+               <div class="income">
+                <span> <i class="fa-brands fa-linkedin" id="linkedin"></i></span>
+                <div class="middle">
+ 
+                  <div class="left">
+                    <h3>Total Followers</h3>
+                    <h1>5 M</h1>
+                  </div>
+                   <div class="progress">
+                       <svg>
+                          <circle  r="30" cy="40" cx="40"></circle>
+                       </svg>
+                       <div class="number"><p>80%</p></div>
+                   </div>
+ 
+                </div>
+                <small>Last 24 Hours</small>
+             </div>
+            <!-- end seling -->
+
+        </div>
+       <!-- end insights -->
+      <div class="recent_order">
+         <h2>Quick Stats</h2>
+         <table> 
+             <thead>
+              <tr>
+                <th>Social Media</th>
+                <th>Likes</th>
+                <th>Reach </th>
+                <th>Impressions</th>
+              </tr>
+             </thead>
+              <tbody>
+                 <tr>
+                   <td>Instagram</td>
+                   <td>90,234</td>
+                   <td>500k</td>
+                   <td class="warning">420k</td>
+                   <td class="primary">Details</td>
+                 </tr>
+                 <tr>
+                  <td>Facebook</td>
+                  <td>45,000</td>
+                  <td>600k</td>
+                  <td class="warning">111k</td>
+                  <td class="primary">Details</td>
+                </tr>
+                <tr>
+                  <td>Linked in</td>
+                  <td>14,345</td>
+                  <td>300k</td>
+                  <td class="warning">222k</td>
+                  <td class="primary">Details</td>
+                </tr>
+                <tr>
+                  <td>twitter </td>
+                  <td>45,643</td>
+                  <td>800k</td>
+                  <td class="warning">333k</td>
+                  <td class="primary">Details</td>
+                </tr>
+              </tbody>
+         </table>
+         <a href="#">Show All</a>
+      </div>
+
+      </main>
+      <!------------------
+         end main
+        ------------------->
+
+      <!----------------
+        start right main 
+      ---------------------->
+    <div class="right">
+
+<div class="top">
+   <button id="menu_bar">
+     <span class="material-symbols-sharp">menu</span>
+   </button>
+
+   <div class="theme-toggler">
+     <span class="material-symbols-sharp active">light_mode</span>
+     <span class="material-symbols-sharp">dark_mode</span>
+   </div>
+    <div class="profile">
+       <div class="info">
+           <p><b>GAURAV</b></p>
+           <p>Admin</p>
+           <small class="text-muted"></small>
+       </div>
+       <div class="profile-photo">
+         <img src="https://media.licdn.com/dms/image/v2/D4D03AQEcoHZ5qgOx-Q/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1682355971320?e=1728518400&v=beta&t=3JnjbeedBbG9NLVOKElMBs_zHicNEbIrflZYYXHLSS4" alt=""/>
+       </div>
+    </div>
+</div>
+
+  <div class="recent_updates">
+     <h2>Recent Update</h2>
+   <div class="updates">
+      <div class="update">
+         <div class="profile-photo">
+            <img src="https://media.licdn.com/dms/image/D4D03AQHeEbYJdGr5KQ/profile-displayphoto-shrink_200_200/0/1715662356896?e=1728518400&v=beta&t=wThdorv1KnscGLRFMoaeySzE0b9x2syDGU81AbRIESA" alt=""/>
+         </div>
+        <div class="message">
+           <p><b>kartik </b> Likes your post Instagram post</p>
+        </div>
+      </div>
+      <div class="update">
+        <div class="profile-photo">
+        <img src="https://media.licdn.com/dms/image/D5603AQGg74UlhRbFwg/profile-displayphoto-shrink_200_200/0/1720114603933?e=1728518400&v=beta&t=PLZep1mhgq0Ybn53PlVpuWz6-Fm47Po9AoJ_BjZPpzM" alt=""/>
+        </div>
+       <div class="message">
+          <p><b>
+            Priya Sharma </b>Comments on your linkedin post</p>
+       </div>
+     </div>
+     <div class="update">
+      <div class="profile-photo">
+         <img src="https://media.licdn.com/dms/image/D5603AQF57KEjwx18iw/profile-displayphoto-shrink_200_200/0/1721800824495?e=1728518400&v=beta&t=jBuayVa2nV5uTfiLaHa336U2dvkcGNp-QektpTjH6MY" alt=""/>
+      </div>
+     <div class="message">
+        <p><b>Aayush Anand
+            </b>Comments on your linkedin post</p>
+     </div>
+   </div>
+  </div>
+  </div>
+
+
+   <div class="sales-analytics">
+     <h2>Followers Deep dive</h2>
+
+      <div class="item onlion">
+        <div class="icon">
+          <span ><i class="fa-solid fa-chart-simple" id="insta"></i></span>
+        </div>
+        <div class="right_text">
+          <div class="info">
+            <h3>New Followers</h3>
+            <small class="text-muted">Last seen 2 Hours</small>
+          </div>
+          <h5 class="danger">+17%</h5>
+          <h3>3849</h3>
+        </div>
+      </div>
+      <div class="item onlion">
+        <div class="icon">
+          <span ><i class="fa-solid fa-chart-simple" id="face"></i></span>
+        </div>
+        <div class="right_text">
+          <div class="info">
+            <h3>Daily reach</h3>
+            <small class="text-muted">Last seen 2 Hours</small>
+          </div>
+          <h5 class="success">+38%</h5>
+          <h3>3849</h3>
+        </div>
+      </div>
+      <div class="item onlion">
+        <div class="icon">
+          <span  ><i class="fa-solid fa-chart-simple" id="link"></i></span>
+        </div>
+        <div class="right_text">
+          <div class="info">
+            <h3>Engaged follow..</h3>
+            <small class="text-muted">Last seen 2 Hours</small>
+          </div>
+          <h5 class="danger">+33%</h5>
+          <h3>3849</h3>
+        </div>
+      </div>
+   
+  
+
+</div>
+
+      <div class="item add_product">
+            <div>
+            <span class="material-symbols-sharp">add</span>
+            </div>
+     </div>
+</div>
+
+
+   </div>
+
+
+
+   <script src="script.js"></script>
+</body>
+</html>
